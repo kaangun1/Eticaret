@@ -7,7 +7,7 @@ public class Contact:IEntity
     public string Surname { get; set; }
     public string? Email { get; set; }
     public string? Phone { get; set; }
-    public string Massage { get; set; }
+    public string Message { get; set; }
     public DateTime CreateDate { get; set; }=DateTime.Now;
-
+    
 }

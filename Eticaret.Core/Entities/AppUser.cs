@@ -11,6 +11,6 @@ public class AppUser:IEntity
     public string? UserName { get; set; }
     public bool IsActive { get; set; }
     public bool IsAdmin { get; set; }
-    public DateTime CreateDate { get; set; }
+    public DateTime CreateDate { get; set; }= DateTime.Now;
     public Guid? UserGuid { get; set; }=Guid.NewGuid();
 }

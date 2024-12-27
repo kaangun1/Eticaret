@@ -10,5 +10,5 @@ public class Category :IEntity
     public bool IsTopMenu { get; set; }
     public int ParentId { get; set; }
     public int OrderNo { get; set; }
-    public DateTime CreateDate { get; set; }
+    public DateTime CreateDate { get; set; }=DateTime.Now;
 }

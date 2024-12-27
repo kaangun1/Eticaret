@@ -8,7 +8,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52244732-a24c-42ba-a3d1-218d1a6b4c9b" name="Changes" comment="Eticaret" />
+    <list default="true" id="52244732-a24c-42ba-a3d1-218d1a6b4c9b" name="Changes" comment="Eticaret">
+      <change afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/AppUserConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/BrandConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/CategoryConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/ContactConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/NewsConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/ProductConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/SliderConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eticaret.Data/DatabaseContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Eticaret/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Eticaret/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/AppUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/Contact.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/Contact.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/News.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/News.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Data/Eticaret.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Data/Eticaret.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Service/Eticaret.Service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Service/Eticaret.Service.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Eticaret.webUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Eticaret.webUI.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +34,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kaangun1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kaangun1/Eticaret.git",
+    "accountId": "2f813409-16a4-498d-8a35-98238b494b0b"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0b7856b364e04283a10bb924825b197f28f228/06/e803efd6/EntityTypeBuilder`1.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -80,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735285131083</updated>
-      <workItem from="1735285132291" duration="3444000" />
+      <workItem from="1735285132291" duration="7838000" />
     </task>
     <task id="LOCAL-00001" summary="Eticaret">
       <option name="closed" value="true" />
@@ -90,12 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1735300112932</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Eticaret">
+      <option name="closed" value="true" />
+      <created>1735300186898</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735300186898</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

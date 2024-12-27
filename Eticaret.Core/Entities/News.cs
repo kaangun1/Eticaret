@@ -6,7 +6,7 @@ public class News:IEntity
 
     public string Name { get; set; }
 
-    public string? Desription { get; set; }
+    public string? Description { get; set; }
 
     public string? Image { get; set; }
 
