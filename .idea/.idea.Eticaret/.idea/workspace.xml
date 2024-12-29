@@ -9,31 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52244732-a24c-42ba-a3d1-218d1a6b4c9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/AppUsersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/BrandsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/MainController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/_SolMenu.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/_UstBar.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Utils/FileHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/CategoriesController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Eticaret/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Eticaret/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/AppUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/Brand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/Brand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/Category.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/Contact.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/Contact.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/News.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/News.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/Slider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/Slider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Data/DatabaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Data/DatabaseContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Data/Eticaret.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Data/Eticaret.Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Service/Eticaret.Service.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Eticaret.webUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Eticaret.webUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/AppUsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/AppUsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/BrandsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/BrandsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/MainController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +41,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0b7856b364e04283a10bb924825b197f28f228/06/e803efd6/EntityTypeBuilder`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4a28847852ee9ba45fd3107526c0a749a733bd4f4ebf33aa3c9a59737a3f758/EntityFrameworkServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -74,20 +55,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Eticaret.webUI: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.Eticaret.webUI: https.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Eticaret.webUI: http.executor": "Run",
+    ".NET Launch Settings Profile.Eticaret.webUI: https.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Eticaret.webUI: https">
     <configuration name="Eticaret.webUI: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Eticaret.webUI/Eticaret.webUI.csproj" />
@@ -132,6 +113,8 @@
       <workItem from="1735369425675" duration="8343000" />
       <workItem from="1735392588299" duration="62000" />
       <workItem from="1735392654662" duration="10000" />
+      <workItem from="1735392721264" duration="5912000" />
+      <workItem from="1735498818389" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="Eticaret">
       <option name="closed" value="true" />
@@ -157,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735306097985</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Img silme ve ekleme">
+      <option name="closed" value="true" />
+      <created>1735462671223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735462671223</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +160,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Eticaret" />
     <MESSAGE value="Context" />
-    <option name="LAST_COMMIT_MESSAGE" value="Context" />
+    <MESSAGE value="Img silme ve ekleme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Img silme ve ekleme" />
   </component>
 </project>

@@ -2,12 +2,12 @@
 using Microsoft.EntityFrameworkCore;
 using Eticaret.Core.Entities;
 using Eticaret.Data;
-using Eticaret.WebUI.Utils;
+using Eticaret.webUI.Utils;
 using Microsoft.AspNetCore.Authorization;
 
 namespace Eticaret.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize(Policy = "AdminPolicy")]
     public class BrandsController : Controller
     {
         private readonly DatabaseContext _context;
