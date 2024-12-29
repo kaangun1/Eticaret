@@ -7,6 +7,7 @@ namespace Eticaret.Data;
 
 public class DatabaseContext:DbContext
 {
+   
     public DbSet<AppUser> AppUsers { get; set; }
     public DbSet<Brand> Brands { get; set; }
     public DbSet<Category> Categories { get; set; }
@@ -17,7 +18,7 @@ public class DatabaseContext:DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseNpgsql("Host=127.0.0.1;Port=5432;Database=EticaretDb;Username=kaangun;Password=1234;");
+        optionsBuilder.UseMySQL("Server=localhost;Database=ETicaretDb;Uid=root;Pwd=;");
         base.OnConfiguring(optionsBuilder);
     }
 
