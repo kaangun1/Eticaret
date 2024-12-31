@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Eticaret.Core.Entities;
 using Eticaret.Data;
-using Eticaret.WebUI.Utils;
+using Eticaret.webUI.Utils;
 using Microsoft.AspNetCore.Authorization;
 
 namespace Eticaret.WebUI.Areas.Admin.Controllers
