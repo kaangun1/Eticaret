@@ -1,9 +1,9 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Eticaret.Core.Entities;
 using Eticaret.Data;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Eticaret.webUI.Utils;
+using Microsoft.AspNetCore.Mvc.Rendering; // SelectList
+using Eticaret.WebUI.Utils;
 using Microsoft.AspNetCore.Authorization;
 
 namespace Eticaret.WebUI.Areas.Admin.Controllers

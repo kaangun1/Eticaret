@@ -1,8 +1,7 @@
-namespace Eticaret.Core.Entities;
-
-public interface IEntity
+﻿namespace Eticaret.Core.Entities
 {
-    public int Id { get; set; }
-    
-    
+    public interface IEntity
+    {
+        public int Id { get; set; }
+    }
 }

@@ -1,8 +1,9 @@
-namespace Eticaret.webUI.Models;
-
-public class ErrorViewModel
+namespace Eticaret.WebUI.Models
 {
-    public string? RequestId { get; set; }
+    public class ErrorViewModel
+    {
+        public string? RequestId { get; set; }
 
-    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    }
 }

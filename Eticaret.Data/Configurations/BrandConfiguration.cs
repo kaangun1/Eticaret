@@ -1,4 +1,4 @@
-using Eticaret.Core.Entities;
+﻿using Eticaret.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

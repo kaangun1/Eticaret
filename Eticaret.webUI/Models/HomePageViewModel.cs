@@ -1,5 +1,11 @@
-namespace Eticaret.webUI.Models;
+﻿using Eticaret.Core.Entities;
 
-public class HomePageViewModel
+namespace Eticaret.WebUI.Models
 {
+    public class HomePageViewModel
+    {
+        public List<Slider>? Sliders { get; set; }
+        public List<Product>? Products { get; set; }
+        public List<News>? News { get; set; }
+    }
 }

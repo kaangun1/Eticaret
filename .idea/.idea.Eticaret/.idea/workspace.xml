@@ -9,13 +9,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52244732-a24c-42ba-a3d1-218d1a6b4c9b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Eticaret.webUI/Models/HomePageViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Eticaret/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Eticaret/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Eticaret.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Eticaret.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Data/Eticaret.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Data/Eticaret.Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eticaret.Service/Eticaret.Service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Service/Eticaret.Service.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/AppUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/Brand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/Brand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/Contact.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/Contact.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/IEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/News.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/News.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Core/Entities/Slider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Core/Entities/Slider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Data/Configurations/AppUserConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/AppUserConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Data/Configurations/BrandConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/BrandConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Data/Configurations/CategoryConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/CategoryConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Data/Configurations/ContactConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/ContactConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Data/Configurations/NewsConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/NewsConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Data/Configurations/ProductConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/ProductConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Data/Configurations/SliderConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Data/Configurations/SliderConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.Data/DatabaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.Data/DatabaseContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/BrandsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/BrandsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/CategoriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/CategoriesController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/NewsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/NewsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Controllers/ProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/AppUsers/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/AppUsers/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/AppUsers/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/AppUsers/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/Error.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Areas/Admin/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Controllers/HomeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Eticaret.webUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Eticaret.webUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Models/ErrorViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Models/ErrorViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Utils/FileHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Utils/FileHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Views/Shared/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Views/Shared/Error.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eticaret.webUI/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eticaret.webUI/Views/_ViewStart.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +75,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Downloads/Eticaret-master/Eticaret.WebUI/Controllers/AccountController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0b7856b364e04283a10bb924825b197f28f228/06/e803efd6/EntityTypeBuilder`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4a28847852ee9ba45fd3107526c0a749a733bd4f4ebf33aa3c9a59737a3f758/EntityFrameworkServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -118,6 +153,7 @@
       <workItem from="1735498818389" duration="192000" />
       <workItem from="1735504507670" duration="92000" />
       <workItem from="1735654719049" duration="1621000" />
+      <workItem from="1735760035143" duration="2983000" />
     </task>
     <task id="LOCAL-00001" summary="Eticaret">
       <option name="closed" value="true" />
