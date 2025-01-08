@@ -21,8 +21,8 @@ namespace Eticaret.WebUI
                 options.Cookie.Name = ".Eticaret.Session";
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
-                options.IdleTimeout = TimeSpan.FromDays(1);
-                options.IOTimeout = TimeSpan.FromMinutes(10);
+                options.IdleTimeout = TimeSpan.FromDays(2);
+                options.IOTimeout = TimeSpan.FromMinutes(20);
             });
 
             builder.Services.AddDbContext<DatabaseContext>(options =>
